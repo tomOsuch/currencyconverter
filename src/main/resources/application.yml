@@ -27,3 +27,9 @@ management:
 springdoc:
   swagger-ui:
     path: /swagger-ui.html
+    
+nbp:
+  base-url: https://api.nbp.pl
+  connect-timeout: 3s
+  read-timeout: 5s
+  lookback-days: 10
